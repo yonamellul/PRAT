@@ -8,13 +8,12 @@ The codebase is organized as follows:
 
 - `loaders/`: Contains DataLoader objects saved in pickle format for easy loading during model training and evaluation.
 - `models/`: Contains saved models in .pth format.
-- `python/`: Contains all Python scripts used in the project.
-  - `data_prep.py`: Scripts for data preprocessing and augmentation.
-  - `eval.py`: Contains functions for model evaluation.
-  - `gradCam.py`: Implementation of Grad-CAM for model visualization.
-  - `model.py`: Contains the modified ResNet-152 model definition.
-  - `training.py`: Scripts for model training.
-  - `utils.py`: Utility functions used across the project.
+- `data_prep.py`: Scripts for data preprocessing and augmentation.
+- `eval.py`: Contains functions for model evaluation.
+- `gradCam.py`: Implementation of Grad-CAM for model visualization.
+- `model.py`: Contains the modified ResNet-152 model definition.
+- `training.py`: Scripts for model training.
+- `utils.py`: Utility functions used across the project.
 - `PRAT.ipynb`: A Jupyter notebook that provides an overview of the project and demonstrates the usage of Python functions.
 - `README.md`: This file, providing an overview and instructions for the project.
 
@@ -24,7 +23,6 @@ To get started with this project, follow these steps:
 
 ### Prerequisites
 
-- Git LFS (Large File Storage) for handling large model files.
 - Python 3.6 or later, along with pip for installing dependencies.
 
 ### Setup
@@ -36,7 +34,9 @@ To get started with this project, follow these steps:
    cd PRAT
  ```
 
-Install the required dependencies:
+2. **Unzip the PRAT_MELLUL/models Repository:**
+
+3. **Install the required dependencies:**
 ```sh
   pip install -r requirements.txt
 ```
